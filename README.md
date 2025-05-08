@@ -1,32 +1,32 @@
-# Pokemon App
+# React Pokemon Explorer
 
-Aplikasi web Pokemon yang dibangun menggunakan **React**, **TypeScript**, dan **Vite**. Aplikasi ini memungkinkan pengguna untuk menjelajahi daftar Pokemon, melihat detail setiap Pokemon, serta melakukan pencarian dan pengurutan.
+Aplikasi web untuk mengeksplorasi dunia Pokémon, dibangun menggunakan React, TypeScript, dan Vite. Dengan aplikasi ini, pengguna dapat mencari, memilah, dan melihat informasi detail berbagai Pokémon.
 
-## Fitur
+## Fitur Utama
 
-- **Daftar Pokemon**: Menampilkan daftar Pokemon dalam tampilan list dan grid.
-- **Pencarian**: Fitur pencarian untuk menemukan Pokemon berdasarkan nama.
-- **Sorting**: Mengurutkan Pokemon berdasarkan nama atau atribut lainnya.
-- **Halaman Detail**: Menampilkan informasi lengkap tentang setiap Pokemon, termasuk statistik kesehatan, serangan, dan pertahanan.
-- **Tema Gelap**: Desain yang nyaman untuk dilihat dengan tema gelap.
+- **Tampilan Daftar Pokemon**: Menampilkan Pokemon dalam mode list atau grid.
+- **Pencarian Cepat**: Cari Pokemon berdasarkan nama secara instan.
+- **Pengurutan Dinamis**: Urutkan Pokemon berdasarkan nama atau atribut lainnya.
+- **Halaman Detail**: Lihat data lengkap seperti statistik kesehatan, serangan, dan pertahanan.
+- **Tema Gelap**: Tampilan ramah mata dengan tema gelap.
 
 ## Teknologi yang Digunakan
 
-- **React**: Library untuk membangun antarmuka pengguna.
-- **TypeScript**: Superset dari JavaScript yang menambahkan tipe statis.
-- **Vite**: Build tool yang cepat dan efisien untuk pengembangan aplikasi.
+- **React**: Framework untuk membangun UI responsif.
+- **TypeScript**: Bahasa yang memperkuat JavaScript dengan sistem tipe.
+- **Vite**: Alat pengembangan modern dan super cepat.
 - **React Router DOM**: Untuk navigasi antar halaman.
-- **Axios**: Untuk melakukan HTTP request ke PokeAPI.
+- **Axios**: Untuk mengambil data dari PokeAPI.
 
-## Instalasi
+## Cara Instalasi
 
-Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi ini secara lokal:
+Untuk menjalankan aplikasi ini ke komputer kamu:
 
 1. **Clone repositori ini**:
 
    ```bash
    git clone https://github.com/username/pokemon-app.git
-   cd pokemon-app```
+   cd react-pokemon-explorer```
 
 
 2. **Instal dependensi**:
@@ -44,28 +44,28 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan aplikasi ini seca
 4. **Buka aplikasi di browser**:\
    Akses http://localhost:3000 untuk melihat aplikasi.
 
-## Cara Menggunakan
+## Panduan Penggunaan
 
-- **Menjelajahi Daftar Pokemon**: Setelah aplikasi dimuat, kamu akan melihat daftar Pokemon. Kamu bisa beralih antara tampilan list dan grid.
-- **Mencari Pokemon**: Gunakan fitur pencarian di bagian atas untuk menemukan Pokemon tertentu.
-- **Melihat Detail Pokemon**: Klik pada nama Pokemon untuk melihat informasi lengkapnya.
+- **Eksplorasi Pokemon**: Lihat daftar Pokemon, ubah tampilan sesuai preferensi.
+- **Cari Pokemon**: Gunakan kolom pencarian untuk menemukan Pokemon favoritmu.
+- **Detail Pokemon**: Klik salah satu Pokemon untuk melihat informasi lengkapnya.
 
 ## Kontribusi
 
 Jika kamu ingin berkontribusi pada proyek ini, silakan ikuti langkah-langkah berikut:
 
 1. Fork repositori ini.
-2. Buat branch baru untuk fitur atau perbaikan yang ingin kamu tambahkan:
+2. Buat branch baru untuk fitur atau perbaikan:
 
    ```bash
    git checkout -b fitur-baru
    ```
-3. Lakukan perubahan dan commit:
+3. Commit perubahanmu:
 
    ```bash
    git commit -m "Menambahkan fitur baru"
    ```
-4. Push ke branch:
+4. Push ke GitHub:
 
    ```bash
    git push origin fitur-baru
